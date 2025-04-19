@@ -1,0 +1,179 @@
+.site__form {
+}
+.site__form__caption {
+  width: 100%;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+.site__form__container {
+  display: flex;
+  margin-bottom: 10rem;
+}
+.site__form__contant {
+  width: 696px;
+  margin-right: 1rem;
+}
+.site__form__list {
+  width: 696px;
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.site__form--name {
+  width: 343px;
+  border: 0;
+  border: 1px solid #00000033;
+  border-radius: 1rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2rem;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+.site__form--tel {
+  width: 343px;
+  border: 0;
+  border: 1px solid #00000033;
+  border-radius: 1rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+.site__form--email {
+  width: 696px;
+
+  border: 0;
+  border: 1px solid #00000033;
+  border-radius: 1rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+  margin-bottom: 1rem;
+}
+.site__form-text {
+  width: 696px;
+  height: 180px;
+  border:0;
+  border: 1px solid #00000033;
+  border-radius: 1rem;
+  padding-top: 1.8rem;
+  padding-bottom: 1.8rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-bottom: 2rem;
+  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  opacity: 0.5;
+}
+
+.contact__btn {
+  max-width: 145px;
+  display: flex;
+  padding-top: 1.7rem;
+  padding-right: 3rem;
+  padding-bottom: 1.7rem;
+  padding-left: 3rem;
+  margin-left: auto;
+
+  border-radius: 1rem;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  background-color: #7297ef;
+  color: #fff;
+
+  &:hover{
+    opacity: 0.8;
+  }
+}
+
+.site__info {
+  width: 494px;
+  height: 310px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+  padding-right: 2.5rem;
+  padding-left: 2.5rem;
+  border-radius: 1rem;
+  background-color: #f6f6f6;
+}
+.site__info__e-pochta {
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 2rem;
+}
+.site__info--caption {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 0.7rem;
+}
+.site__info--email {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+.site__info__phone {
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 2rem;
+}
+.site__info--num {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #000000;
+  margin-bottom: 2rem;
+}
+.site__info__adres {
+}
+.site__info__caption {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 0.7rem;
+}
+.site__info__address {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+}

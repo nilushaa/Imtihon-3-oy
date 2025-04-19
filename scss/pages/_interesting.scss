@@ -1,0 +1,125 @@
+.interesting__article {
+}
+.interesting__article__container {
+  display: flex;
+}
+
+.interesting__text__contant {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #d2d2d2;
+  margin-bottom: 6rem;
+}
+.chanel__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 3rem;
+}
+.channel__info--logo {
+}
+.channel__info--name {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #5e5f61;
+}
+.interesting__text__contant-title {
+  font-weight: 500;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+.interesting__text__contant--link{
+    color: #000;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.interesting__text__contant--image {
+  border-radius: 1.3rem;
+  margin-bottom: 2.5rem;
+}
+.interesting__text__contant--desc {
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 1.5;
+  letter-spacing: 0%;
+  margin-bottom: 2.4rem;
+  margin-right: 1rem;
+
+  &:last-child {
+    margin-bottom: 5rem;
+  }
+}
+
+.interesting__news {
+    margin-bottom: 10rem;
+}
+.interesting__news__container {
+  display: flex;
+  gap: 1rem;
+}
+.interesting__news__title {
+  width: 100%;
+  max-width: 1260px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 3rem;
+  padding-left: 3rem;
+  font-weight: 500;
+  font-size: 2.4rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  margin-bottom: 2rem;
+}
+
+.interesting__news__card {
+  width: 393px;
+  padding-top: 2rem;
+  padding-right: 1.8rem;
+  padding-bottom: 1.5rem;
+  padding-left: 1.7rem;
+  background-color: #f6f6f6;
+  border-radius: 1.5rem;
+}
+.interesting__news__card--title {
+  font-weight: 500;
+  font-size: 2rem;
+  line-height: 1.3;
+  letter-spacing: 0%;
+  margin-bottom: 1rem;
+}
+.intteresting__news__card--link {
+  color: #000;
+
+  &:hover{
+    color: #7297EF;
+  }
+}
+.interesting__news_card--desc {
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 1.375;
+  letter-spacing: 0%;
+  color: #4a4b4c;
+  margin-bottom: 2rem;
+}
+.interesting__chanel__info {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.interesting__chanel__image {
+  border-radius: 0.5rem;
+}
+.interesting__chanel__name {
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #5e5f61;
+}

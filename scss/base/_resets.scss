@@ -1,41 +1,55 @@
 *,
 *::after,
-*::before{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    transition: 0.3s;
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: 0.3s;
 }
 
-html{
-    height: 100%;
-    font-style: 62.5%;
-    scroll-behavior: smooth;
+html {
+  height: 100%;
+  font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
-ul,ol{
-    list-style: none;
-
+a {
+  text-decoration: none;
+  display: inline-block;
 }
 
-a{
- display: inline-block;
- text-decoration: none;
+ul,
+ol {
+  list-style: none;
 }
-img{
-    display: flex;
-    object-fit: cover;
+
+img {
+  display: flex;
+  object-fit: cover;
 }
-body{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
+
+body {
+  font-family: "Rubik";
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
-.container{
-    width: 100%;
-    max-width: 1200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 30px;
-    padding-right: 30px;
+main{
+  flex-grow: 1;
+}
+
+h1 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1260px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+#active{
+  color: #0942c6;
 }
